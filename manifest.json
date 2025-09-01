@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-textlint",
+  "name": "textlint",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Integrate textlint for real-time text linting in Obsidian",
+  "author": "atosh",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

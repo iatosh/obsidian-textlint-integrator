@@ -1,0 +1,45 @@
+/* Textlint underline styles */
+.textlint-error {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #ff4757;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 2px;
+}
+
+.textlint-warning {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #ffa502;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 2px;
+}
+
+/* Tooltip styles */
+.textlint-tooltip {
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 4px;
+	padding: 8px;
+	max-width: 300px;
+	box-shadow: var(--shadow-s);
+	font-size: var(--font-ui-smaller);
+	z-index: 1000;
+}
+
+.textlint-message {
+	color: var(--text-normal);
+	margin-bottom: 4px;
+}
+
+.textlint-rule {
+	color: var(--text-muted);
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+/* Settings styles */
+.textlint-settings h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
